@@ -1,0 +1,674 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MEU Timișoara 2027 Recruitment Hub</title>
+    <meta name="description" content="Applications for MEU Timișoara 2027 Content and Participants tracks.">
+    <meta name="theme-color" content="#001040">
+    <link rel="icon" type="image/png" href="assets/meu-logo-albastru.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="top-progress" aria-hidden="true"><span id="scrollProgress"></span></div>
+
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="MEU Timișoara Recruitment Hub">
+        <img src="assets/MEU-LOGO-TIMISOARA-cropped.png" alt="Model European Union Timișoara">
+        <span>
+          <strong>Recruitment Hub</strong>
+          <small>MEU Timișoara 2027</small>
+        </span>
+      </a>
+      <nav class="desktop-nav" aria-label="Primary navigation">
+        <a href="#tracks">Tracks</a>
+        <a href="#selection">Selection</a>
+        <a href="#archive">Archive</a>
+        <a href="#application">Apply</a>
+        <a href="#privacy">Privacy</a>
+      </nav>
+      <a class="header-cta" href="#application">
+        <i data-lucide="send"></i>
+        Apply
+      </a>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-grid" aria-hidden="true"></div>
+        <div class="hero-inner">
+          <div class="hero-copy">
+            <p class="eyebrow">MEU Timișoara 2027 recruitment</p>
+            <h1>The room is being curated.</h1>
+            <p class="hero-lede">
+              Two application tracks. One international simulation. A limited set of places for people who can think clearly,
+              speak with discipline and show up when the room gets difficult.
+            </p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#application" data-track-jump="Participants">
+                <i data-lucide="users"></i>
+                Apply as participant
+              </a>
+              <a class="btn btn-outline" href="#application" data-track-jump="Content">
+                <i data-lucide="gavel"></i>
+                Apply for content
+              </a>
+            </div>
+            <dl class="hero-metrics" aria-label="Recruitment highlights">
+              <div>
+                <dt>2</dt>
+                <dd>strategic tracks</dd>
+              </div>
+              <div>
+                <dt>5</dt>
+                <dd>selection signals</dd>
+              </div>
+              <div>
+                <dt>1</dt>
+                <dd>candidate dossier</dd>
+              </div>
+            </dl>
+          </div>
+
+          <aside class="archive-console" aria-label="Visual archive preview">
+            <div class="archive-window">
+              <div class="window-bar">
+                <span></span><span></span><span></span>
+              </div>
+              <div class="archive-window-body">
+                <img src="assets/MEU-LOGO-TIMISOARA-cropped.png" alt="">
+                <p class="console-kicker">Visual proof</p>
+                <h2>See the room before you ask to enter it.</h2>
+                <p>
+                  The 2026 archive is part of the recruitment journey: it shows the tone, pace and standard of the event
+                  without duplicating the gallery inside this platform.
+                </p>
+                <a class="btn btn-primary" href="https://meutm.github.io/visual-archive/" target="_blank" rel="noreferrer">
+                  <i data-lucide="images"></i>
+                  Open archive
+                </a>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <section class="tracks-section" id="tracks">
+        <div class="section-heading">
+          <p class="eyebrow">Choose your track</p>
+          <h2>Do not apply to everything. Apply to the role you can own.</h2>
+          <p>
+            The hub separates candidates into two selection funnels. Participants enter the simulation as delegates or journalists.
+            Content candidates shape the institutional logic, procedures and intellectual quality of the event.
+          </p>
+        </div>
+
+        <div class="track-grid">
+          <article class="track-panel">
+            <span class="track-number">01</span>
+            <h3>Participants</h3>
+            <p>
+              For candidates who want to experience the simulation from inside the political room:
+              European Parliament, EU Council or journalism.
+            </p>
+            <ul>
+              <li>Primary and secondary role preference</li>
+              <li>150-word role essays</li>
+              <li>Previous MEU/MUN experience</li>
+              <li>Motivation video and candidate dossier</li>
+            </ul>
+            <button class="btn btn-primary" type="button" data-track-jump="Participants">
+              <i data-lucide="arrow-right"></i>
+              Start participant application
+            </button>
+          </article>
+
+          <article class="track-panel dark">
+            <span class="track-number">02</span>
+            <h3>Content</h3>
+            <p>
+              For candidates who can carry the simulation's architecture:
+              presidency, legal direction, commission roleplay and procedural leadership.
+            </p>
+            <ul>
+              <li>Content role preference</li>
+              <li>Leadership and coordination evidence</li>
+              <li>Debating, mediation and chairing experience</li>
+              <li>Simulation contribution and academic judgment</li>
+            </ul>
+            <button class="btn btn-outline light" type="button" data-track-jump="Content">
+              <i data-lucide="arrow-right"></i>
+              Start content application
+            </button>
+          </article>
+        </div>
+      </section>
+
+      <section class="fomo-section" id="selection">
+        <div class="fomo-copy">
+          <p class="eyebrow">Selection psychology</p>
+          <h2>This is not an attendance list. It is a room with standards.</h2>
+          <p>
+            The best applications will make the reviewers feel three things quickly: this person understands the role,
+            this person can be trusted under pressure, and the event would be weaker without them.
+          </p>
+        </div>
+        <div class="signal-grid">
+          <article>
+            <span>01</span>
+            <h3>Role clarity</h3>
+            <p>We look for candidates who know what seat they are trying to earn.</p>
+          </article>
+          <article>
+            <span>02</span>
+            <h3>Presence</h3>
+            <p>The short video shows judgment, confidence and sincerity faster than text alone.</p>
+          </article>
+          <article>
+            <span>03</span>
+            <h3>Proof</h3>
+            <p>Experience matters, but so does evidence of growth, discipline and preparation.</p>
+          </article>
+          <article>
+            <span>04</span>
+            <h3>Contribution</h3>
+            <p>The strongest candidates explain what they will add to the room, not only what they will take from it.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="archive-section" id="archive">
+        <div class="archive-shell">
+          <div>
+            <p class="eyebrow">Visual archive</p>
+            <h2>Before applying, look at the room you are trying to join.</h2>
+            <p>
+              We are not rebuilding the photo gallery here. The recruitment platform integrates the existing MEU Timișoara
+              Visual Archive as a reference point, so candidates understand the atmosphere, scale and seriousness of the event.
+            </p>
+          </div>
+          <a class="archive-link-card" href="https://meutm.github.io/visual-archive/" target="_blank" rel="noreferrer">
+            <span>MEU 2026</span>
+            <strong>Open the Visual Archive</strong>
+            <small>Photos, albums and the digital ecosystem from last year's edition</small>
+            <i data-lucide="external-link"></i>
+          </a>
+        </div>
+      </section>
+
+      <section class="application-section" id="application">
+        <div class="section-heading">
+          <p class="eyebrow">Application dossier</p>
+          <h2>Build the application reviewers will actually want to read.</h2>
+          <p>
+            Your text progress is saved locally in this browser. Files are uploaded only when you submit the final application.
+          </p>
+        </div>
+
+        <div class="application-layout">
+          <aside class="stepper-panel" aria-label="Application progress">
+            <div class="progress-card">
+              <span class="progress-label">Completion</span>
+              <strong id="completionValue">0%</strong>
+              <div class="meter" aria-hidden="true"><span id="completionMeter"></span></div>
+            </div>
+
+            <ol class="stepper" id="stepper">
+              <li class="active" data-step-link="0"><button type="button"><span>01</span>Track</button></li>
+              <li data-step-link="1"><button type="button"><span>02</span>Identity</button></li>
+              <li data-step-link="2"><button type="button"><span>03</span>Role case</button></li>
+              <li data-step-link="3"><button type="button"><span>04</span>Fit</button></li>
+              <li data-step-link="4"><button type="button"><span>05</span>Uploads</button></li>
+              <li data-step-link="5"><button type="button"><span>06</span>Submit</button></li>
+            </ol>
+
+            <div class="side-note">
+              <i data-lucide="shield-check"></i>
+              <p>Privacy, media consent and future-contact consent are separated to keep the process clean.</p>
+            </div>
+          </aside>
+
+          <form class="application-tool" id="applicationForm" novalidate>
+            <div class="tool-toolbar">
+              <div>
+                <span id="stepCounter">Step 1 of 6</span>
+                <h3 id="stepTitle">Select your application track</h3>
+              </div>
+              <button class="btn btn-quiet" type="button" id="clearDraftBtn">
+                <i data-lucide="trash-2"></i>
+                Clear draft
+              </button>
+            </div>
+
+            <fieldset class="form-step active" data-step="0" data-title="Select your application track">
+              <div class="route-options">
+                <label class="route-card">
+                  <input type="radio" name="application_track" value="Participants" required>
+                  <span>Participants</span>
+                  <strong>MEP, EU Council or Journalist</strong>
+                  <small>For candidates who want to take a seat in the simulation and be evaluated on role fit, motivation and public affairs interest.</small>
+                </label>
+                <label class="route-card">
+                  <input type="radio" name="application_track" value="Content" required>
+                  <span>Content</span>
+                  <strong>Presidency, Legal, Commission or Academic Leadership</strong>
+                  <small>For candidates who can design, moderate and protect the quality of the simulation.</small>
+                </label>
+              </div>
+
+              <div class="inline-alert">
+                <i data-lucide="sparkles"></i>
+                <p>Choose carefully. The next step adapts to your track and your application ID will be routed into the matching review pipeline.</p>
+              </div>
+            </fieldset>
+
+            <fieldset class="form-step" data-step="1" data-title="Identity and eligibility">
+              <div class="field-grid two">
+                <label class="field">
+                  <span>First name</span>
+                  <input name="first_name" type="text" autocomplete="given-name" required>
+                </label>
+                <label class="field">
+                  <span>Last name</span>
+                  <input name="last_name" type="text" autocomplete="family-name" required>
+                </label>
+              </div>
+
+              <div class="field-grid three">
+                <label class="field">
+                  <span>Email address</span>
+                  <input name="email" type="email" autocomplete="email" required placeholder="name@example.com">
+                </label>
+                <label class="field">
+                  <span>Phone / WhatsApp</span>
+                  <input name="phone" type="tel" autocomplete="tel" required placeholder="+40 700 000 000">
+                </label>
+                <label class="field">
+                  <span>Date of birth</span>
+                  <input name="date_of_birth" type="date" required>
+                </label>
+              </div>
+
+              <div class="field-grid three">
+                <label class="field">
+                  <span>Country of residence</span>
+                  <select name="country_residence" id="countryResidence" required></select>
+                </label>
+                <label class="field">
+                  <span>Nationality</span>
+                  <select name="nationality" id="nationality" required></select>
+                </label>
+                <label class="field">
+                  <span>City</span>
+                  <input name="city" type="text" autocomplete="address-level2" required>
+                </label>
+              </div>
+
+              <div class="field-grid three">
+                <label class="field">
+                  <span>Institution</span>
+                  <input name="institution" type="text" required placeholder="School, university or organization">
+                </label>
+                <label class="field">
+                  <span>Subject studied or completed</span>
+                  <input name="subject_study" type="text" required placeholder="Law, politics, economics, media, etc.">
+                </label>
+                <label class="field">
+                  <span>Level of study</span>
+                  <select name="study_level" required>
+                    <option value="">Select one</option>
+                    <option>High school</option>
+                    <option>Bachelor</option>
+                    <option>Master</option>
+                    <option>PhD</option>
+                    <option>Graduate</option>
+                    <option>Gap year</option>
+                    <option>Other</option>
+                  </select>
+                </label>
+              </div>
+            </fieldset>
+
+            <fieldset class="form-step" data-step="2" data-title="Role case">
+              <div class="track-fields" data-track="Participants">
+                <div class="field-grid two">
+                  <label class="field">
+                    <span>First-choice role</span>
+                    <select name="participant_primary_role" data-required-track="Participants">
+                      <option value="">Select one</option>
+                      <option>Member of the European Parliament</option>
+                      <option>Member of the EU Council</option>
+                      <option>Journalist</option>
+                    </select>
+                  </label>
+                  <label class="field">
+                    <span>Second-choice role</span>
+                    <select name="participant_secondary_role" data-required-track="Participants">
+                      <option value="">Select one</option>
+                      <option>Member of the European Parliament</option>
+                      <option>Member of the EU Council</option>
+                      <option>Journalist</option>
+                    </select>
+                  </label>
+                </div>
+
+                <label class="field">
+                  <span>Did you take part in any MEUs before?</span>
+                  <select name="previous_meu" data-required-track="Participants">
+                    <option value="">Select one</option>
+                    <option>Yes</option>
+                    <option>No</option>
+                  </select>
+                </label>
+
+                <label class="field">
+                  <span>If yes, describe the experience and what you expect from this edition</span>
+                  <textarea name="previous_meu_details" maxlength="1200" placeholder="If this is your first MEU, tell us what kind of simulation environment you hope to discover."></textarea>
+                </label>
+
+                <label class="field">
+                  <span>Why did you choose your first-choice role? <em>minimum 150 words</em></span>
+                  <textarea name="participant_primary_essay" data-required-track="Participants" data-min-words="150" placeholder="Make the reviewer understand why this seat fits you."></textarea>
+                </label>
+
+                <label class="field">
+                  <span>Why did you choose your second-choice role? <em>minimum 150 words</em></span>
+                  <textarea name="participant_secondary_essay" data-required-track="Participants" data-min-words="150" placeholder="Show that your alternate role is also intentional, not random."></textarea>
+                </label>
+              </div>
+
+              <div class="track-fields" data-track="Content" hidden>
+                <label class="field">
+                  <span>Content role</span>
+                  <select name="content_role" data-required-track="Content">
+                    <option value="">Select one</option>
+                    <option>President of the European Parliament</option>
+                    <option>Vice-President of the European Parliament</option>
+                    <option>President of the EU Council</option>
+                    <option>Vice-President of the EU Council</option>
+                    <option>Legal Advisor</option>
+                    <option>European Commissioner</option>
+                    <option>Academic / Procedural Support</option>
+                  </select>
+                </label>
+
+                <label class="field">
+                  <span>Why did you choose this content role? <em>minimum 150 words</em></span>
+                  <textarea name="content_role_essay" data-required-track="Content" data-min-words="150" placeholder="Explain why you can carry responsibility in this role."></textarea>
+                </label>
+
+                <label class="field">
+                  <span>What do you hope to bring to this role and this simulation?</span>
+                  <textarea name="content_contribution" data-required-track="Content" maxlength="1400"></textarea>
+                </label>
+
+                <label class="field">
+                  <span>Leadership or coordination experience</span>
+                  <textarea name="leadership_experience" data-required-track="Content" maxlength="1500" placeholder="Academic, extracurricular, operational or personal leadership examples."></textarea>
+                </label>
+
+                <label class="field">
+                  <span>Debating, public speaking, mediation or procedural chairing experience</span>
+                  <textarea name="procedural_experience" data-required-track="Content" maxlength="1500"></textarea>
+                </label>
+              </div>
+            </fieldset>
+
+            <fieldset class="form-step" data-step="3" data-title="Motivation and fit">
+              <label class="field">
+                <span>Tell us a bit more about yourself</span>
+                <textarea name="personal_profile" required maxlength="1200" placeholder="Fun facts, interests, hobbies, background, what people should know after five minutes with you."></textarea>
+              </label>
+
+              <label class="field">
+                <span>Why do you want to take part in MEU Timișoara 2027?</span>
+                <textarea name="motivation_text" required maxlength="1400"></textarea>
+              </label>
+
+              <label class="field">
+                <span>What would the event gain by selecting you?</span>
+                <textarea name="contribution_text" required maxlength="1400" placeholder="Be concrete. Energy is good; evidence is better."></textarea>
+              </label>
+
+              <div class="field-grid three">
+                <label class="field">
+                  <span>English level</span>
+                  <select name="english_level" required>
+                    <option value="">Select one</option>
+                    <option>B1</option>
+                    <option>B2</option>
+                    <option>C1</option>
+                    <option>C2</option>
+                    <option>Native / near-native</option>
+                  </select>
+                </label>
+                <label class="field">
+                  <span>Full-event availability</span>
+                  <select name="availability_full_event" required>
+                    <option value="">Select one</option>
+                    <option>Yes, I can attend the full event</option>
+                    <option>Mostly, but I need to flag a constraint</option>
+                    <option>No, I cannot attend the full event</option>
+                  </select>
+                </label>
+                <label class="field">
+                  <span>Social profile link</span>
+                  <input name="social_link" type="url" required placeholder="Instagram, LinkedIn or Facebook URL">
+                </label>
+              </div>
+
+              <div class="field">
+                <span>Languages spoken</span>
+                <div class="choice-grid" id="languageChoices">
+                  <label><input type="checkbox" name="languages" value="English"> English</label>
+                  <label><input type="checkbox" name="languages" value="Romanian"> Romanian</label>
+                  <label><input type="checkbox" name="languages" value="French"> French</label>
+                  <label><input type="checkbox" name="languages" value="German"> German</label>
+                  <label><input type="checkbox" name="languages" value="Spanish"> Spanish</label>
+                  <label><input type="checkbox" name="languages" value="Italian"> Italian</label>
+                  <label><input type="checkbox" name="languages" value="Other"> Other</label>
+                </div>
+              </div>
+
+              <div class="field-grid three">
+                <label class="field">
+                  <span>Financial support need</span>
+                  <select name="financial_support">
+                    <option value="">Select one</option>
+                    <option>No</option>
+                    <option>Yes - partial support would help</option>
+                    <option>Yes - full support would be necessary</option>
+                    <option>Prefer not to say</option>
+                  </select>
+                </label>
+                <label class="field">
+                  <span>Dietary restrictions</span>
+                  <select name="dietary_restrictions">
+                    <option value="">Select one</option>
+                    <option>None</option>
+                    <option>Vegetarian</option>
+                    <option>Vegan</option>
+                    <option>Halal</option>
+                    <option>Kosher</option>
+                    <option>Gluten-free</option>
+                    <option>Allergies</option>
+                    <option>Other</option>
+                    <option>Prefer not to say</option>
+                  </select>
+                </label>
+                <label class="field">
+                  <span>Accessibility needs</span>
+                  <select name="accessibility_needs">
+                    <option value="">Select one</option>
+                    <option>No</option>
+                    <option>Yes - I would like to be contacted privately</option>
+                  </select>
+                </label>
+              </div>
+            </fieldset>
+
+            <fieldset class="form-step" data-step="4" data-title="Uploads">
+              <div class="upload-grid">
+                <label class="upload-box" for="cvFile">
+                  <input id="cvFile" name="cv_file" type="file" accept="application/pdf,.pdf" data-file-key="cv">
+                  <span class="upload-icon"><i data-lucide="file-text"></i></span>
+                  <strong>CV</strong>
+                  <small>PDF only - max 5 MB</small>
+                  <em id="cvFileName">No file selected</em>
+                </label>
+
+                <label class="upload-box" for="photoFile">
+                  <input id="photoFile" name="photo_file" type="file" accept="image/jpeg,image/png,.jpg,.jpeg,.png" data-file-key="photo">
+                  <span class="upload-icon"><i data-lucide="image"></i></span>
+                  <strong>Profile photo</strong>
+                  <small>JPG or PNG - max 3 MB</small>
+                  <em id="photoFileName">No file selected</em>
+                </label>
+
+                <label class="upload-box" for="videoFile">
+                  <input id="videoFile" name="video_file" type="file" accept="video/mp4,video/quicktime,.mp4,.mov" data-file-key="video">
+                  <span class="upload-icon"><i data-lucide="video"></i></span>
+                  <strong>Motivation video</strong>
+                  <small>MP4 or MOV - max 22 MB</small>
+                  <em id="videoFileName">No file selected</em>
+                </label>
+              </div>
+
+              <div class="inline-alert warning">
+                <i data-lucide="timer"></i>
+                <p>Video guidance: 30-60 seconds, compressed for web upload. Tell us why this event should have you in the room.</p>
+              </div>
+
+              <label class="field">
+                <span>Upload notes <em>optional</em></span>
+                <textarea name="upload_notes" maxlength="600" placeholder="If anything about your files requires context, add it here."></textarea>
+              </label>
+            </fieldset>
+
+            <fieldset class="form-step" data-step="5" data-title="GDPR, declarations and submit">
+              <div class="review-box">
+                <div>
+                  <span>Review snapshot</span>
+                  <strong id="reviewName">Candidate name</strong>
+                </div>
+                <dl id="reviewSummary"></dl>
+              </div>
+
+              <div class="consent-list">
+                <label class="consent">
+                  <input type="checkbox" name="gdpr_privacy_accept" required>
+                  <span>
+                    <strong>Privacy notice accepted</strong>
+                    I confirm that I have read the recruitment privacy notice and agree that my data, CV, photo and motivation video may be processed exclusively for the MEU Timișoara 2027 recruitment and selection process.
+                  </span>
+                </label>
+                <label class="consent">
+                  <input type="checkbox" name="gdpr_truthfulness" required>
+                  <span>
+                    <strong>Truthfulness declaration</strong>
+                    I confirm that the information submitted in this application is accurate and belongs to me.
+                  </span>
+                </label>
+                <label class="consent">
+                  <input type="checkbox" name="gdpr_contact_accept" required>
+                  <span>
+                    <strong>Recruitment communication</strong>
+                    I agree to be contacted regarding eligibility, interviews, decisions and onboarding.
+                  </span>
+                </label>
+                <label class="consent optional">
+                  <input type="checkbox" name="media_consent">
+                  <span>
+                    <strong>Optional media consent</strong>
+                    If selected, I agree to be contacted separately about the possible use of my profile photo in MEU Timișoara 2027 communication materials.
+                  </span>
+                </label>
+                <label class="consent optional">
+                  <input type="checkbox" name="future_contact_consent">
+                  <span>
+                    <strong>Optional future contact</strong>
+                    I agree that the team may contact me about future MEU opportunities after this recruitment process.
+                  </span>
+                </label>
+              </div>
+
+              <div class="privacy-summary" id="privacy">
+                <h4>Data governance summary</h4>
+                <p>
+                  Data is stored in a Google Sheet and candidate files are stored in a restricted Google Drive folder.
+                  Access should be limited to the recruitment team. Recommended retention: 12 months after the selection process,
+                  unless the candidate is selected and data is needed for event operations.
+                </p>
+              </div>
+            </fieldset>
+
+            <div class="form-actions">
+              <button class="btn btn-outline" type="button" id="prevBtn">
+                <i data-lucide="arrow-left"></i>
+                Back
+              </button>
+              <button class="btn btn-primary" type="button" id="nextBtn">
+                Continue
+                <i data-lucide="arrow-right"></i>
+              </button>
+              <button class="btn btn-primary submit-btn" type="submit" id="submitBtn">
+                <i data-lucide="send"></i>
+                Submit application
+              </button>
+            </div>
+
+            <p class="form-message" id="formMessage" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+
+      <section class="data-section">
+        <div class="data-inner">
+          <div class="section-heading compact">
+            <p class="eyebrow">Operational backend</p>
+            <h2>One submission becomes one clean recruitment record.</h2>
+            <p>Google Apps Script creates a candidate folder, stores files in Drive and writes structured data into the matching review pipeline.</p>
+          </div>
+          <div class="workflow">
+            <article>
+              <i data-lucide="route"></i>
+              <h3>Track routing</h3>
+              <p>Content and Participants applications are identified from the first decision.</p>
+            </article>
+            <article>
+              <i data-lucide="folder-lock"></i>
+              <h3>Drive dossier</h3>
+              <p>CV, profile photo and motivation video are stored under the candidate ID.</p>
+            </article>
+            <article>
+              <i data-lucide="table-2"></i>
+              <h3>Sheets review</h3>
+              <p>Applications, scoring fields, shortlist status and logs remain filterable.</p>
+            </article>
+            <article>
+              <i data-lucide="mail-check"></i>
+              <h3>Confirmation</h3>
+              <p>The candidate receives an application ID and the team receives an alert.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div class="success-modal" id="successModal" hidden>
+      <div class="success-panel" role="dialog" aria-modal="true" aria-labelledby="successTitle">
+        <span><i data-lucide="circle-check"></i></span>
+        <h2 id="successTitle">Application received</h2>
+        <p>Your application ID is <strong id="successId">MEUTM27</strong>. You should receive a confirmation email after the Google Apps Script backend is configured.</p>
+        <button class="btn btn-primary" type="button" id="closeSuccessBtn">Close</button>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+    <script src="js/config.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
